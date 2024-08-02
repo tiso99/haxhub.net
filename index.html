@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hax Land</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <header>
+            <h1>Welcome to Hax Land</h1>
+            <button id="login-btn">Login with Discord</button>
+            <button id="logout-btn">Logout</button>
+        </header>
+        <section id="announcements">
+            <div id="announcement-container"></div>
+        </section>
+        <section id="features">
+            <div class="feature" id="freebies">
+                <h2>Freebies</h2>
+                <button class="feature-btn" onclick="location.href='/freebies'">Explore Freebies</button>
+            </div>
+            <div class="feature" id="haxhub">
+                <h2>HaxHub - Premium</h2>
+                <button class="feature-btn" onclick="location.href='/haxhub'">Get HaxHub</button>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
